@@ -379,7 +379,7 @@ for v in range(0,200):
 print(f"a = {counta}, b = {countb}, c = {countc}, d = {countd}")
 print("---------------------------ketvirtas---------------------------------------")
 
-result = ""
+result = []
 a = random.randint(0, 3)
 for _ in range(0,200):
     a = random.randint(0, 3)
@@ -391,12 +391,11 @@ for _ in range(0,200):
         result += "c"
     elif a == 3:
        result += "d"
-sorted_result = "".join(sorted(result))
+sorted_result = [].join(sorted(result))
 print(sorted_result)
 
+# git config --global user.name "taucas2"
+# git config --global user.email "dovydastaucas123@gmail.com"
 
 print("-----------------------penktas-----------------------------------")
 
-
-git config --global user.name "taucas2"
-git config --global user.email "dovydastaucas123@gmail.com"
